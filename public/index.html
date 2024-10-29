@@ -1,0 +1,335 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>單字挑戰</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .heart {
+            color: red;
+            font-size: 24px;
+        }
+        .question-card {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .stats-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .lives-display {
+            font-size: 24px;
+        }
+        .score-display {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="text-center mt-4">
+            <h1>🏆 單字挑戰賽</h1>
+            <button class="btn btn-primary mb-3" id="toggleLeaderboard">
+                🏆 顯示/隱藏排行榜
+            </button>
+            <p>累計參與遊戲人次: <span id="totalPlays">0</span></p>
+        </div>
+
+        <div id="nameInputModal" class="modal fade" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">恭喜進入排行榜！</h5>
+                    </div>
+                    <form id="scoreForm">
+                        <div class="modal-body">
+                            <p>您的分數：<span id="finalScore"></span></p>
+                            <div class="mb-3">
+                                <label for="playerName" class="form-label">請輸入您的名字：</label>
+                                <input type="text" 
+                                       class="form-control" 
+                                       id="playerName" 
+                                       name="playerName"
+                                       maxlength="20" 
+                                       required
+                                       placeholder="請輸入2-20個字">
+                                <div class="invalid-feedback">
+                                    請輸入有效的名字（2-20個字）
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">確認送出</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="question-card card">
+            <div class="card-body">
+                <div class="text-center mb-3">
+                    <div class="stats-container">
+                        <div class="lives-display" id="lives"></div>
+                        <div class="score-display">分數: <span id="score">0</span></div>
+                    </div>
+                    <div>第 <span id="currentQuestion">1</span> 題 / 共 <span id="totalQuestions">0</span> 題</div>
+                </div>
+
+                <h5 class="card-title text-center" id="question"></h5>
+                
+                <div id="answers" class="d-grid gap-2 mt-4">
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <div id="leaderboardSection" style="display: none;">
+                <h3>排行榜</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>排名</th>
+                            <th>名字</th>
+                            <th>分數</th>
+                            <th>日期</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboardBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentLives = 3;
+        let currentScore = 0;
+        let currentQuestionNumber = 1;
+        let totalQuestions = 0;
+        let allQuestions = [];  // 儲存所有題目
+        let currentQuestion = null;
+        let usedQuestionIndices = new Set(); // 追蹤已使用的題目索引
+
+        document.getElementById('toggleLeaderboard').addEventListener('click', function() {
+            const leaderboardSection = document.getElementById('leaderboardSection');
+            leaderboardSection.style.display = leaderboardSection.style.display === 'none' ? 'block' : 'none';
+        });
+
+        function updateLives() {
+            const livesElement = document.getElementById('lives');
+            livesElement.innerHTML = '❤️'.repeat(currentLives);
+        }
+
+        function createAnswerButton(answer) {
+            const button = document.createElement('button');
+            button.className = 'btn btn-outline-primary';
+            button.textContent = answer;
+            button.onclick = () => checkAnswer(answer);
+            return button;
+        }
+
+        function getRandomQuestion() {
+            // 如果所有題目都用完了，重置追蹤集合
+            if (usedQuestionIndices.size === allQuestions.length) {
+                usedQuestionIndices.clear();
+            }
+
+            // 尋找未使用的題目
+            let availableIndices = allQuestions
+                .map((_, index) => index)
+                .filter(index => !usedQuestionIndices.has(index));
+
+            const randomIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)];
+            usedQuestionIndices.add(randomIndex);
+            
+            const question = allQuestions[randomIndex];
+            if (question && question.answers) {
+                question.answers = shuffleArray([...question.answers]);
+            }
+            return question;
+        }
+
+        // 新增打亂陣列的函數
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        async function loadQuestion() {
+            if (allQuestions.length === 0) {
+                try {
+                    const response = await fetch('/api/questions');
+                    allQuestions = await response.json();
+                    totalQuestions = allQuestions.length;
+                    document.getElementById('totalQuestions').textContent = totalQuestions;
+                } catch (error) {
+                    console.error('Error loading questions:', error);
+                    return null;
+                }
+            }
+
+            const question = getRandomQuestion();
+            if (!question) {
+                console.error('No question available');
+                return null;
+            }
+
+            document.getElementById('question').textContent = question.question;
+            const answersDiv = document.getElementById('answers');
+            answersDiv.innerHTML = '';
+
+            if (Array.isArray(question.answers) && question.answers.length > 0) {
+                question.answers.forEach(answer => {
+                    answersDiv.appendChild(createAnswerButton(answer));
+                });
+            } else {
+                console.error('No answers available for question:', question);
+            }
+
+            return question;
+        }
+
+        async function loadLeaderboard() {
+            try {
+                const response = await fetch('/api/leaderboard');
+                const leaderboard = await response.json();
+                
+                const tbody = document.getElementById('leaderboardBody');
+                tbody.innerHTML = '';
+                
+                leaderboard.forEach((entry, index) => {
+                    const row = tbody.insertRow();
+                    row.insertCell(0).textContent = index + 1;
+                    row.insertCell(1).textContent = entry.playerName || '匿名';  // 顯示玩家名字
+                    row.insertCell(2).textContent = entry.score;
+                    row.insertCell(3).textContent = new Date(entry.date).toLocaleDateString();
+                });
+            } catch (error) {
+                console.error('Error loading leaderboard:', error);
+            }
+        }
+
+        async function checkAnswer(selectedAnswer) {
+            if (!currentQuestion) {
+                console.error('No current question available');
+                return;
+            }
+
+            if (selectedAnswer === currentQuestion.correctAnswer) {
+                currentScore += 10;
+                document.getElementById('score').textContent = currentScore;
+            } else {
+                currentLives--;
+                updateLives();
+                // 只顯示答錯訊息
+                alert(`答錯了！請繼續加油！`);
+            }
+
+            // 不論對錯都前進到下一題
+            currentQuestionNumber++;
+            document.getElementById('currentQuestion').textContent = currentQuestionNumber;
+
+            // 檢查是否遊戲結束
+            if (currentLives === 0) {
+                await saveScore();
+                return;
+            }
+
+            // 載入下一題
+            currentQuestion = await loadQuestion();
+        }
+
+        async function saveScore() {
+            try {
+                if (currentScore > 0) {
+                    document.getElementById('finalScore').textContent = currentScore;
+                    const nameInputModal = new bootstrap.Modal(document.getElementById('nameInputModal'));
+                    nameInputModal.show();
+
+                    // 使用表單提交處理
+                    const form = document.getElementById('scoreForm');
+                    form.addEventListener('submit', async (e) => {
+                        e.preventDefault();
+                        
+                        const playerName = document.getElementById('playerName').value.trim();
+                        if (playerName.length < 2 || playerName.length > 20) {
+                            document.getElementById('playerName').classList.add('is-invalid');
+                            return;
+                        }
+
+                        try {
+                            const response = await fetch('/api/leaderboard', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify({ 
+                                    score: currentScore,
+                                    playerName: playerName
+                                })
+                            });
+
+                            if (!response.ok) {
+                                throw new Error('儲存分數失敗');
+                            }
+
+                            nameInputModal.hide();
+                            alert(`遊戲結束！${playerName} 的分數是: ${currentScore}`);
+                            location.reload();
+                        } catch (error) {
+                            console.error('Error saving score:', error);
+                            alert('儲存分數時發生錯誤，請稍後再試');
+                        }
+                    });
+
+                    // 監聽輸入框變化
+                    document.getElementById('playerName').addEventListener('input', function(e) {
+                        const input = e.target;
+                        if (input.value.trim().length >= 2 && input.value.trim().length <= 20) {
+                            input.classList.remove('is-invalid');
+                            input.classList.add('is-valid');
+                        } else {
+                            input.classList.remove('is-valid');
+                            input.classList.add('is-invalid');
+                        }
+                    });
+                } else {
+                    alert(`遊戲結束！您的分數是: ${currentScore}`);
+                    location.reload();
+                }
+            } catch (error) {
+                console.error('Error in saveScore:', error);
+                alert('發生錯誤，請稍後再試');
+                location.reload();
+            }
+        }
+
+        async function initialize() {
+            updateLives();
+            currentQuestion = await loadQuestion();
+            await loadLeaderboard();
+
+            // 載入總遊戲次數
+            try {
+                const response = await fetch('/api/total-plays');
+                const data = await response.json();
+                document.getElementById('totalPlays').textContent = data.totalPlays;
+            } catch (error) {
+                console.error('Error loading total plays:', error);
+            }
+        }
+
+        initialize();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
