@@ -1,0 +1,272 @@
+[
+  {
+    "item": "before",
+    "correct": "在…之前",
+    "wrong": [
+      "在...之後",
+      "在...期間"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "begin",
+    "correct": "開始",
+    "wrong": [
+      "結束",
+      "繼續"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "behind",
+    "correct": "在…後面",
+    "wrong": [
+      "在前面",
+      "在旁邊"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "believe",
+    "correct": "相信",
+    "wrong": [
+      "懷疑",
+      "否認"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bell",
+    "correct": "鈴",
+    "wrong": [
+      "喇叭",
+      "鼓"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "belong",
+    "correct": "屬於",
+    "wrong": [
+      "擁有",
+      "借用"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "below",
+    "correct": "在…下方",
+    "wrong": [
+      "在上方",
+      "在旁邊"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "belt",
+    "correct": "皮帶",
+    "wrong": [
+      "領帶",
+      "圍巾"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bench",
+    "correct": "長椅",
+    "wrong": [
+      "桌子",
+      "櫃子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "beside",
+    "correct": "在…旁邊",
+    "wrong": [
+      "在前面",
+      "在後面"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "between",
+    "correct": "在…之間",
+    "wrong": [
+      "在外面",
+      "在裡面"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bike",
+    "correct": "腳踏車",
+    "wrong": [
+      "機車",
+      "汽車"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "big",
+    "correct": "大的",
+    "wrong": [
+      "小的",
+      "中等的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bird",
+    "correct": "鳥",
+    "wrong": [
+      "魚",
+      "蟲"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "birthday",
+    "correct": "生日",
+    "wrong": [
+      "節日",
+      "假日"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bite",
+    "correct": "咬",
+    "wrong": [
+      "吃",
+      "喝"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "black",
+    "correct": "黑色(的)",
+    "wrong": [
+      "白色的",
+      "灰色的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "blackboard",
+    "correct": "黑板",
+    "wrong": [
+      "白板",
+      "佈告欄"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "blanket",
+    "correct": "毯子",
+    "wrong": [
+      "枕頭",
+      "床單"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "blind",
+    "correct": "瞎的",
+    "wrong": [
+      "聾的",
+      "啞的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "block",
+    "correct": "街區",
+    "wrong": [
+      "建築",
+      "道路"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "blow",
+    "correct": "吹",
+    "wrong": [
+      "吸",
+      "呼"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "blue",
+    "correct": "藍色(的)",
+    "wrong": [
+      "紅色的",
+      "綠色的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "boat",
+    "correct": "船",
+    "wrong": [
+      "車",
+      "飛機"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "body",
+    "correct": "身體",
+    "wrong": [
+      "靈魂",
+      "心靈"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "boil",
+    "correct": "煮沸",
+    "wrong": [
+      "冷凍",
+      "烤"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "book",
+    "correct": "書",
+    "wrong": [
+      "雜誌",
+      "報紙"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bookstore",
+    "correct": "書店",
+    "wrong": [
+      "圖書館",
+      "文具店"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bored",
+    "correct": "感到厭煩的",
+    "wrong": [
+      "興奮的",
+      "快樂的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "boring",
+    "correct": "無聊的",
+    "wrong": [
+      "有趣的",
+      "刺激的"
+    ],
+    "category": "elementary"
+  }
+]

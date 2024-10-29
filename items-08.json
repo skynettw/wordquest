@@ -1,0 +1,272 @@
+[
+  {
+    "item": "buy",
+    "correct": "買",
+    "wrong": [
+      "賣",
+      "租"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "by",
+    "correct": "藉著",
+    "wrong": [
+      "因為",
+      "所以"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "cage",
+    "correct": "籠子",
+    "wrong": [
+      "箱子",
+      "柵欄"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "cake",
+    "correct": "蛋糕",
+    "wrong": [
+      "餅乾",
+      "麵包"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "call",
+    "correct": "打電話",
+    "wrong": [
+      "寫信",
+      "傳簡訊"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "camera",
+    "correct": "照相機",
+    "wrong": [
+      "手機",
+      "電視"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "camp",
+    "correct": "露營",
+    "wrong": [
+      "遠足",
+      "游泳"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "can",
+    "correct": "能夠",
+    "wrong": [
+      "不能",
+      "必須"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "candle",
+    "correct": "蠟燭",
+    "wrong": [
+      "燈泡",
+      "手電筒"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "candy",
+    "correct": "糖果",
+    "wrong": [
+      "餅乾",
+      "巧克力"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "cap",
+    "correct": "(無邊)帽",
+    "wrong": [
+      "圍巾",
+      "手套"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "car",
+    "correct": "車子",
+    "wrong": [
+      "腳踏車",
+      "機車"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "card",
+    "correct": "卡片",
+    "wrong": [
+      "信件",
+      "報紙"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "care",
+    "correct": "關心",
+    "wrong": [
+      "忽視",
+      "討厭"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "careful",
+    "correct": "仔細的",
+    "wrong": [
+      "粗心的",
+      "隨便的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "carry",
+    "correct": "攜帶",
+    "wrong": [
+      "放下",
+      "丟棄"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "case",
+    "correct": "情形",
+    "wrong": [
+      "物品",
+      "地點"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "castle",
+    "correct": "城堡",
+    "wrong": [
+      "房子",
+      "公寓"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "cat",
+    "correct": "貓",
+    "wrong": [
+      "狗",
+      "兔子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "catch",
+    "correct": "抓住",
+    "wrong": [
+      "放開",
+      "丟掉"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "celebrate",
+    "correct": "慶祝",
+    "wrong": [
+      "悲傷",
+      "抱怨"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "cell phone",
+    "correct": "手機",
+    "wrong": [
+      "市內電話",
+      "傳真機"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "cent",
+    "correct": "分錢",
+    "wrong": [
+      "元",
+      "角"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "center",
+    "correct": "中心",
+    "wrong": [
+      "邊緣",
+      "角落"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "centimeter",
+    "correct": "公分",
+    "wrong": [
+      "公尺",
+      "公里"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "chair",
+    "correct": "椅子",
+    "wrong": [
+      "桌子",
+      "沙發"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "chalk",
+    "correct": "粉筆",
+    "wrong": [
+      "鉛筆",
+      "原子筆"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "chance",
+    "correct": "機會",
+    "wrong": [
+      "運氣",
+      "時間"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "change",
+    "correct": "改變",
+    "wrong": [
+      "保持",
+      "停止"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "cheap",
+    "correct": "便宜的",
+    "wrong": [
+      "昂貴的",
+      "適中的"
+    ],
+    "category": "elementary"
+  }
+]

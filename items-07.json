@@ -1,0 +1,272 @@
+[
+  {
+    "item": "born",
+    "correct": "出生",
+    "wrong": [
+      "死亡",
+      "成長"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "borrow",
+    "correct": "借入",
+    "wrong": [
+      "借出",
+      "購買"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "boss",
+    "correct": "老闆",
+    "wrong": [
+      "員工",
+      "客戶"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "both",
+    "correct": "兩者都",
+    "wrong": [
+      "其中一個",
+      "沒有一個"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bottle",
+    "correct": "瓶子",
+    "wrong": [
+      "杯子",
+      "盤子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bottom",
+    "correct": "底部",
+    "wrong": [
+      "頂部",
+      "中間"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bow",
+    "correct": "鞠躬",
+    "wrong": [
+      "揮手",
+      "跳躍"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bowl",
+    "correct": "碗",
+    "wrong": [
+      "盤子",
+      "杯子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "box",
+    "correct": "盒子",
+    "wrong": [
+      "袋子",
+      "籃子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "boy",
+    "correct": "男孩",
+    "wrong": [
+      "女孩",
+      "男人"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bread",
+    "correct": "麵包",
+    "wrong": [
+      "蛋糕",
+      "餅乾"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "break",
+    "correct": "打破",
+    "wrong": [
+      "修理",
+      "建造"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "breakfast",
+    "correct": "早餐",
+    "wrong": [
+      "午餐",
+      "晚餐"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bridge",
+    "correct": "橋",
+    "wrong": [
+      "道路",
+      "隧道"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bright",
+    "correct": "明亮的",
+    "wrong": [
+      "黑暗的",
+      "模糊的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bring",
+    "correct": "帶來",
+    "wrong": [
+      "拿走",
+      "放下"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "brother",
+    "correct": "兄弟",
+    "wrong": [
+      "姊妹",
+      "父親"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "brown",
+    "correct": "棕色(的)",
+    "wrong": [
+      "黑色的",
+      "灰色的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "brush",
+    "correct": "刷",
+    "wrong": [
+      "擦",
+      "拖"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bug",
+    "correct": "小蟲",
+    "wrong": [
+      "小鳥",
+      "小魚"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "build",
+    "correct": "建造",
+    "wrong": [
+      "破壞",
+      "修理"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bun",
+    "correct": "小圓麵包",
+    "wrong": [
+      "蛋糕",
+      "餅乾"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "burn",
+    "correct": "燃燒",
+    "wrong": [
+      "冷凍",
+      "熄滅"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bus",
+    "correct": "公車",
+    "wrong": [
+      "計程車",
+      "火車"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "business",
+    "correct": "生意",
+    "wrong": [
+      "工作",
+      "學習"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "businessman",
+    "correct": "商人",
+    "wrong": [
+      "學生",
+      "教師"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "busy",
+    "correct": "忙碌的",
+    "wrong": [
+      "空閒的",
+      "懶惰的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "but",
+    "correct": "但是",
+    "wrong": [
+      "所以",
+      "因為"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "butter",
+    "correct": "奶油",
+    "wrong": [
+      "牛奶",
+      "起司"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "butterfly",
+    "correct": "蝴蝶",
+    "wrong": [
+      "蜜蜂",
+      "螞蟻"
+    ],
+    "category": "elementary"
+  }
+]
