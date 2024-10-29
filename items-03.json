@@ -1,0 +1,182 @@
+[
+  {
+    "item": "a",
+    "correct": "一(個)",
+    "wrong": [
+      "二(個)",
+      "三(個)"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "able",
+    "correct": "能夠…的",
+    "wrong": [
+      "不能的",
+      "困難的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "about",
+    "correct": "關於",
+    "wrong": [
+      "在...之下",
+      "在...之上"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "above",
+    "correct": "在…上方",
+    "wrong": [
+      "在...下方",
+      "在...旁邊"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "abroad",
+    "correct": "在國外",
+    "wrong": [
+      "在國內",
+      "在家裡"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "across",
+    "correct": "在…對面",
+    "wrong": [
+      "在...旁邊",
+      "在...之下"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "actress",
+    "correct": "女演員",
+    "wrong": [
+      "男演員",
+      "導演"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "afraid",
+    "correct": "害怕的",
+    "wrong": [
+      "勇敢的",
+      "開心的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "after",
+    "correct": "在…之後",
+    "wrong": [
+      "在...之前",
+      "在...期間"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "afternoon",
+    "correct": "下午",
+    "wrong": [
+      "上午",
+      "晚上"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "again",
+    "correct": "再一次",
+    "wrong": [
+      "第一次",
+      "最後一次"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "age",
+    "correct": "年齡",
+    "wrong": [
+      "時間",
+      "日期"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "ago",
+    "correct": "以前",
+    "wrong": [
+      "現在",
+      "之後"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "agree",
+    "correct": "同意",
+    "wrong": [
+      "反對",
+      "懷疑"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "ahead",
+    "correct": "在前方",
+    "wrong": [
+      "在後方",
+      "在旁邊"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "air",
+    "correct": "空氣",
+    "wrong": [
+      "水",
+      "土地"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "airplane",
+    "correct": "飛機",
+    "wrong": [
+      "汽車",
+      "船"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "airport",
+    "correct": "機場",
+    "wrong": [
+      "車站",
+      "港口"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "all",
+    "correct": "全部的",
+    "wrong": [
+      "部分的",
+      "一些"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "almost",
+    "correct": "幾乎",
+    "wrong": [
+      "完全",
+      "從不"
+    ],
+    "category": "elementary"
+  }
+]

@@ -1,13 +1,10 @@
-[
-  {
-    "question": "What is the meaning of 'apple'?",
-    "answers": ["蘋果", "香蕉", "橘子", "葡萄"],
-    "correctAnswer": "蘋果"
-  },
-  {
-    "question": "What is the meaning of 'book'?",
-    "answers": ["書本", "筆記本", "雜誌", "報紙"],
-    "correctAnswer": "書本"
-  }
-]
+[{
+    "item": "happy",
+    "correct": "快樂",
+    "wrong": [
+      "悲傷",
+      "生氣"
+    ],
+    "category": "elementary"
+  }]
   

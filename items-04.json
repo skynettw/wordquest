@@ -1,0 +1,272 @@
+[
+  {
+    "item": "along",
+    "correct": "沿著",
+    "wrong": [
+      "穿過",
+      "遠離"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "already",
+    "correct": "已經",
+    "wrong": [
+      "尚未",
+      "從不"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "also",
+    "correct": "也",
+    "wrong": [
+      "只有",
+      "除了"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "always",
+    "correct": "總是",
+    "wrong": [
+      "從不",
+      "有時候"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "America",
+    "correct": "美國",
+    "wrong": [
+      "英國",
+      "加拿大"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "American",
+    "correct": "美國人；美國的",
+    "wrong": [
+      "英國人的",
+      "加拿大人的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "and",
+    "correct": "和",
+    "wrong": [
+      "或",
+      "但是"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "angry",
+    "correct": "生氣的",
+    "wrong": [
+      "高興的",
+      "平靜的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "animal",
+    "correct": "動物",
+    "wrong": [
+      "植物",
+      "昆蟲"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "another",
+    "correct": "另一個的",
+    "wrong": [
+      "相同的",
+      "最後的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "answer",
+    "correct": "回答",
+    "wrong": [
+      "問題",
+      "猜測"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "ant",
+    "correct": "螞蟻",
+    "wrong": [
+      "蜜蜂",
+      "蟲子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "any",
+    "correct": "任何的",
+    "wrong": [
+      "特定的",
+      "全部的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "anyone",
+    "correct": "任何人",
+    "wrong": [
+      "某人",
+      "每個人"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "anything",
+    "correct": "任何事物",
+    "wrong": [
+      "某事",
+      "每件事"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "apartment",
+    "correct": "公寓",
+    "wrong": [
+      "房子",
+      "別墅"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "appear",
+    "correct": "出現",
+    "wrong": [
+      "消失",
+      "隱藏"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "apple",
+    "correct": "蘋果",
+    "wrong": [
+      "香蕉",
+      "橘子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "April",
+    "correct": "四月",
+    "wrong": [
+      "三月",
+      "五月"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "arm",
+    "correct": "手臂",
+    "wrong": [
+      "腿",
+      "腳"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "around",
+    "correct": "在…四周",
+    "wrong": [
+      "在中間",
+      "在裡面"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "arrive",
+    "correct": "到達",
+    "wrong": [
+      "離開",
+      "返回"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "art",
+    "correct": "美術",
+    "wrong": [
+      "音樂",
+      "科學"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "as",
+    "correct": "與…一樣",
+    "wrong": [
+      "不同於",
+      "反之"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "ask",
+    "correct": "問",
+    "wrong": [
+      "回答",
+      "說"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "at",
+    "correct": "在",
+    "wrong": [
+      "離開",
+      "遠離"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "August",
+    "correct": "八月",
+    "wrong": [
+      "七月",
+      "九月"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "aunt",
+    "correct": "伯(叔)母",
+    "wrong": [
+      "舅母",
+      "姑姑"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "autumn",
+    "correct": "秋天",
+    "wrong": [
+      "春天",
+      "夏天"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "away",
+    "correct": "遠離",
+    "wrong": [
+      "靠近",
+      "在旁邊"
+    ],
+    "category": "elementary"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "item": "happy",
+    "correct": "快樂的",
+    "wrong": [
+      "生氣的",
+      "悲傷的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "sad",
+    "correct": "悲傷的",
+    "wrong": [
+      "快樂的",
+      "興奮的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "angry",
+    "correct": "生氣的",
+    "wrong": [
+      "快樂的",
+      "友善的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "dog",
+    "correct": "狗",
+    "wrong": [
+      "貓",
+      "鳥"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "cat",
+    "correct": "貓",
+    "wrong": [
+      "狗",
+      "老鼠"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "book",
+    "correct": "書",
+    "wrong": [
+      "筆",
+      "桌子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "school",
+    "correct": "學校",
+    "wrong": [
+      "公園",
+      "醫院"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "teacher",
+    "correct": "教師",
+    "wrong": [
+      "學生",
+      "醫生"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "student",
+    "correct": "學生",
+    "wrong": [
+      "老師",
+      "醫生"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "friend",
+    "correct": "朋友",
+    "wrong": [
+      "陌生人",
+      "鄰居"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "mother",
+    "correct": "母親",
+    "wrong": [
+      "父親",
+      "姊妹"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "father",
+    "correct": "父親",
+    "wrong": [
+      "母親",
+      "兄弟"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "brother",
+    "correct": "兄弟",
+    "wrong": [
+      "姊妹",
+      "父親"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "sister",
+    "correct": "姊妹",
+    "wrong": [
+      "兄弟",
+      "母親"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "doctor",
+    "correct": "醫生",
+    "wrong": [
+      "老師",
+      "警察"
+    ],
+    "category": "elementary"
+  }
+]

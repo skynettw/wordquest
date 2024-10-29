@@ -1,0 +1,272 @@
+[
+  {
+    "item": "baby",
+    "correct": "嬰兒",
+    "wrong": [
+      "小孩",
+      "青少年"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "back",
+    "correct": "在…後面",
+    "wrong": [
+      "在前面",
+      "在中間"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bad",
+    "correct": "壞的",
+    "wrong": [
+      "好的",
+      "普通的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "badminton",
+    "correct": "羽毛球",
+    "wrong": [
+      "網球",
+      "排球"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bag",
+    "correct": "袋子",
+    "wrong": [
+      "箱子",
+      "籃子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bake",
+    "correct": "烘烤",
+    "wrong": [
+      "煮",
+      "炒"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bakery",
+    "correct": "麵包店",
+    "wrong": [
+      "餐廳",
+      "超市"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "balcony",
+    "correct": "陽台",
+    "wrong": [
+      "走廊",
+      "門廊"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "ball",
+    "correct": "球",
+    "wrong": [
+      "棒子",
+      "繩子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "banana",
+    "correct": "香蕉",
+    "wrong": [
+      "蘋果",
+      "橘子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "band",
+    "correct": "樂團",
+    "wrong": [
+      "歌手",
+      "舞者"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bank",
+    "correct": "銀行",
+    "wrong": [
+      "郵局",
+      "商店"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "barbecue",
+    "correct": "烤肉",
+    "wrong": [
+      "煮湯",
+      "炒菜"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "baseball",
+    "correct": "棒球",
+    "wrong": [
+      "足球",
+      "籃球"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "basket",
+    "correct": "籃子",
+    "wrong": [
+      "箱子",
+      "袋子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "basketball",
+    "correct": "籃球",
+    "wrong": [
+      "足球",
+      "棒球"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bat",
+    "correct": "蝙蝠",
+    "wrong": [
+      "鳥",
+      "老鼠"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bath",
+    "correct": "洗澡",
+    "wrong": [
+      "游泳",
+      "洗臉"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bathroom",
+    "correct": "浴室",
+    "wrong": [
+      "臥室",
+      "廚房"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "be",
+    "correct": "是",
+    "wrong": [
+      "不是",
+      "有"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "beach",
+    "correct": "海灘",
+    "wrong": [
+      "公園",
+      "山丘"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bean",
+    "correct": "豆",
+    "wrong": [
+      "米",
+      "麥"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bear",
+    "correct": "熊",
+    "wrong": [
+      "老虎",
+      "獅子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "beautiful",
+    "correct": "美麗的",
+    "wrong": [
+      "醜陋的",
+      "普通的"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "because",
+    "correct": "因為",
+    "wrong": [
+      "所以",
+      "但是"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "become",
+    "correct": "變成",
+    "wrong": [
+      "保持",
+      "停止"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bed",
+    "correct": "床",
+    "wrong": [
+      "椅子",
+      "桌子"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bedroom",
+    "correct": "臥室",
+    "wrong": [
+      "客廳",
+      "廚房"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "bee",
+    "correct": "蜜蜂",
+    "wrong": [
+      "螞蟻",
+      "蒼蠅"
+    ],
+    "category": "elementary"
+  },
+  {
+    "item": "beef",
+    "correct": "牛肉",
+    "wrong": [
+      "豬肉",
+      "雞肉"
+    ],
+    "category": "elementary"
+  }
+]

@@ -28,6 +28,9 @@
             font-size: 20px;
             font-weight: bold;
         }
+        #question {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
     </style>
 </head>
 <body class="bg-light">
@@ -81,7 +84,7 @@
                     <div>第 <span id="currentQuestion">1</span> 題 / 共 <span id="totalQuestions">0</span> 題</div>
                 </div>
 
-                <h5 class="card-title text-center" id="question"></h5>
+                <h3 class="card-title text-center" id="question"></h3>
                 
                 <div id="answers" class="d-grid gap-2 mt-4">
                 </div>
@@ -90,19 +93,23 @@
 
         <div class="mt-4">
             <div id="leaderboardSection" style="display: none;">
-                <h3>排行榜</h3>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>排名</th>
-                            <th>名字</th>
-                            <th>分數</th>
-                            <th>日期</th>
-                        </tr>
-                    </thead>
-                    <tbody id="leaderboardBody">
-                    </tbody>
-                </table>
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <h3>排行榜</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>名字</th>
+                                    <th>分數</th>
+                                    <th>日期</th>
+                                </tr>
+                            </thead>
+                            <tbody id="leaderboardBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

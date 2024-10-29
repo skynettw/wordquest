@@ -58,7 +58,7 @@ app.get('/api/questions', async (req, res) => {
         return null;
       }
       return {
-        question: `What is the meaning of '${q.item}'?`,
+        question: q.item,
         answers: [q.correct, ...q.wrong],
         correctAnswer: q.correct,
         item: q.item // 保留英文單字以便顯示正確答案
